@@ -16,11 +16,22 @@ The scheme is shown below:
 ## Workflow Components
 
 ### Inputs/Outputs/Attributes
+Attributes
 | Name | Type | Value | Description |
 |------|------|-------|-------------|
 | arrMembersToRemove | Array/AD:User | Not set | |
 | groupLocalAdmin | AD:UserGroup | Not set | |
 | operationOptions | Array/string | Array [ Add Members, Remove Members] | |
-| psHost | PowerShell:PowerShellHost
+| psHost | PowerShell:PowerShellHost | Powershell host entry | |
+| usersOU | AD:OrganisationalUnit | OU value | |
+| vmName | string | | |
+
+Inputs
+| Name | Type | Description |
+|------|------|------------|
+| vm | VC:VirtualMachine | |
+| membersToRemove | Array/string | |
+| membersToAdd | Array/AD:User | |
+| operation | string | |
 
 ### Compute Workgroup
