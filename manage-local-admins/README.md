@@ -6,6 +6,6 @@ a domain group that contains the administrative users.
 
 ## Workflow Schema
 The scheme is shown below:
-(workflow.png)
+![Workflow](workflow.png)
 
 ## Workflow Components
